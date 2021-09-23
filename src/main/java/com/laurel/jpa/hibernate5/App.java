@@ -1,5 +1,6 @@
 package com.laurel.jpa.hibernate5;
 
+
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
@@ -9,10 +10,9 @@ import org.hibernate.service.ServiceRegistry;
 
 
 public class App {
-    public static void main( String[] args ){
+   public static void main( String[] args ){
     	
-
-        
+       
     	Fruit fruit = null;
     	
     	
@@ -29,7 +29,5 @@ public class App {
     	tx.commit();
     	
     	System.out.println(fruit);
-    	
-    	
-    }
+   }
 }
