@@ -8,6 +8,8 @@ import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
 import org.hibernate.cfg.Configuration;
 import org.hibernate.service.ServiceRegistry;
 
+import com.laurel.jpa.hibernate5.model.Fruit;
+
 
 public class App {
    public static void main( String[] args ){

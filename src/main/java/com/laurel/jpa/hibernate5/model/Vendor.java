@@ -1,4 +1,4 @@
-package com.laurel.jpa.hibernate5;
+package com.laurel.jpa.hibernate5.model;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
